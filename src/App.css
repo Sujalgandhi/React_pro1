@@ -1,0 +1,28 @@
+.folder {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+}
+
+.folder span {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.file span {
+  margin-left: 35px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.file > div {
+  margin-top: 5px;
+}
